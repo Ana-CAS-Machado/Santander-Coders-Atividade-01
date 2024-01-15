@@ -66,6 +66,13 @@ body {
     text-align: justify;
   }
 
+  .formularios{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
   #img-linkedin img{
     width: 40px;
