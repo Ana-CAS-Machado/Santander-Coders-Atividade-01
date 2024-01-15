@@ -8,3 +8,14 @@
 	- Pelo menos três *tags* de formatação de texto
 	- Link para o Linkedin
 	- Uma foto usando a tag "img"
+
+<hr>
+
+# Atividade de Fixação 2  *(escopo Fechado)*
+
+- Criar um formulario;
+- Utilizar `Labels` com `for` para cada `input`;
+- Utilizar as propriedades `id` e `name`;
+- Utilizar pelo menos 5 tipos de `inputs` diferentes;
+- Criar uma lista ordenada e uma lista não ordenada;
+
