@@ -1,31 +1,189 @@
 body{
- Font: normal 12pt Arial;
+ background-size: cover;
  background-image: url(https://th.bing.com/th/id/OIG.YE0DGUid2sNi.__aZNAU?pid=ImgGn);
+ color: #fff;
+ font-family: "Dancing Script", cursive;
+}
+
+ header{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 45px;
  }
 
+ main{
+  background: #a770ef;  
+  background: -webkit-linear-gradient(145deg, #fdb89ba4, #cf8bf3cb, #a770ef88); 
+  background: linear-gradient(145deg, #fdb89bbd, #cf8bf3c0, #a770efbd); 
+  border-radius: 10px;
+  padding: 5px;
+  width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgb(213, 104, 240);
+ }
 
  .img-pato{
   border-radius: 100px;
   border: 2px;
   border-radius: 75%;
-  box-shadow: 0 0 0 2px #07ddc8;
+  box-shadow: 0 0 0 2px #f503b8;
   background: center center no-repeat;
   background-size: cover;
   width: 250px;
  }
 
- img{
-  text-align: center;
+ .img-pato:hover{
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+  -webkit-transition: 1.6s ease-in-out;
+  transition: 1.6s ease-in-out;
  }
 
- #team-pato{
-  display: flex;
-  justify-content: center;
+ #msg{
+  margin-bottom: 396px;
  }
- 
+
+ h1{
+  font-size: 40px;
+  
+ }
+
+ h2, h3, p{
+  color: antiquewhite;
+  font-size: x-large;
+ }
+
+ h1, #msg, #saudacao {
+  text-align: center;
+  padding: 20px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+ }
+
  .list{
-  font-size: 20px;
+  padding: 50px;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: antiquewhite;
+  padding-left: 126px;
+  padding-right: 125px;
  }
+
+.formularios{ 
+ background: #a770ef8a;  
+ background: -webkit-linear-gradient(145deg, #fdb89ba4, #cf8bf38f, #a770ef88); 
+ background: linear-gradient(145deg, #fdb89b98, #cf8bf385, #a770ef7e); 
+ border-radius: 10px;
+ padding: 5px;
+ width: 600px;
+ margin: auto;
+ box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.363);
+ }
+
+ main{
+  text-align: center;
+  color: rgb(0, 0, 0);
+ }
+
+ main, #msg, #saudacao{
+  text-align: center;
+  padding: 20px;
+  color: black;
+ }
+
+ .row{
+  display: flex;
+ }
+
+ .btn-funky-moon{
+  background: #038dfd;  
+  background: -webkit-linear-gradient(145deg, #04edf5, #4578e4, #a8c7f0); 
+  border-radius: 90px; 
+  color: #fff;
+  border-radius: 40px;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  
+  }
+
+  a{
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  }
+
+  .formularios{
+   font-family: "Dancing Script", cursive;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   flex-wrap: nowrap;
+  }
+  input, textarea{
+   border-radius: 90px;
+   background: -webkit-linear-gradient(145deg, #04edf5, #4578e4, #a8c7f0);
+  }
+
+  button{
+   color: #fff;
+    background: linear-gradient(135deg, #852d91, #312a6c);
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: lowercase;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+    margin-top: 15px;
+  }
+
+  button:hover{
+   color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    animation: rotate 0.7s ease-in-out both;
+  }
+button:before,
+button:after{
+    content: '';
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    opacity: 0;
+    transform: translate(100%, -25%) translate3d(0, 0, 0);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: all 0.15s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+button:hover:before,
+button:hover:after{
+    opacity: 0.15;
+}
+button:hover:before{ transform: translate3d(50%, 0, 0) scale(0.9); }
+button:hover:after{ transform: translate(50%, 0) scale(1.1); }
+@keyframes rotate{
+    0%{ transform: rotate(0deg); }
+    25%{ transform: rotate(3deg); }
+    50%{ transform: rotate(-3deg); }
+    75%{ transform: rotate(1deg); }
+    100%{ transform: rotate(0deg); }
+}
+@media only screen and (max-width: 767px){
+ button{ margin-bottom: 20px; }
+}
+ /*Rodape*/
 
  footer{
   font: italic;
