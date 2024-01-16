@@ -1,8 +1,21 @@
 body{
- Font: normal 12pt Arial;
- background-image: url(https://th.bing.com/th/id/OIG.YE0DGUid2sNi.__aZNAU?pid=ImgGn);
+  background-image: url(https://th.bing.com/th/id/OIG.YE0DGUid2sNi.__aZNAU?pid=ImgGn);
+  background-size: cover;
+  color: antiquewhite;
+  text-shadow: black 0.1em 0.1em 0.2em
  }
 
+ main{
+  background: #a770ef8a;  
+  background: -webkit-linear-gradient(145deg, #fdb89ba4, #cf8bf38f, #a770ef88); 
+  background: linear-gradient(145deg, #fdb89b98, #cf8bf385, #a770ef7e); 
+  border-radius: 10px;
+  padding: 5px;
+  width: 600px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.363);
+
+ }
 
  .img-pato{
   border-radius: 100px;
@@ -12,6 +25,9 @@ body{
   background: center center no-repeat;
   background-size: cover;
   width: 250px;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
  }
 
  img{
