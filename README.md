@@ -19,3 +19,13 @@
 - Utilizar pelo menos 5 tipos de `inputs` diferentes;
 - Criar uma lista ordenada e uma lista não ordenada;
 
+<hr>
+
+# Atividade de Fixação 3
+
+- Fazer um cadápio/catálogo digital;
+- Todo produto deste cardápio/catalogo deve possuir uma imagem, um nome e uma descrição;
+- É necessário possuir navegação entre as páginas;
+- Deve existir uma tabela de preços (ou com qualquer outra função) na página;
+- Deve possuir um formulário para cadastro;
+- A página deve possuir alguma estilização.
