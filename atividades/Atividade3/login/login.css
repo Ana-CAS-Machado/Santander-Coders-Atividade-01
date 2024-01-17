@@ -1,18 +1,22 @@
 body{
+  background-image: url(https://th.bing.com/th/id/OIG.YE0DGUid2sNi.__aZNAU?w=270&h=270&c=6&r=0&o=5&pid=ImgGn);
+  background-size: cover;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 1.7;
-	color: #c4c3ca;
+	color: #ffffff;
+  font-weight: bold;
 	background-color: #1f2029;
 	overflow-x: hidden;
 }
 
 .header{
     width: 100%;
+    background-color: #10267000;
 }
 .menu {
-    background-color: #666666;
+    background-color: #25242400;
     text-align: center;
 }
 .menu ul li {
@@ -20,8 +24,10 @@ body{
 }
 .menu ul li a {
     display: block;
-    color: #FFFFFF;
+    color: #000000;
+    text-shadow: #ffeba7;
     padding: 30px 10px;
+    text-decoration: none;
 }
 
 .principal{
@@ -53,10 +59,12 @@ h4 {
   font-weight: 600;
 }
 
-/* h6{
+h6{
   display: block;
   margin-left: 45vw;
-} */
+  color: #000000;
+  font-weight: bold;
+}
 
 h6 span{
   padding: 0 20px;
@@ -109,9 +117,9 @@ h6 span{
   height: 36px;
   border-radius: 50%;
   color: #ffeba7;
-  background-color: #102770;
+  background-color: #102670;
   font-family: 'unicons';
-  content: '\eb4f';
+  content: "\f007";
   z-index: 20;
   top: -10px;
   left: -10px;
@@ -152,8 +160,9 @@ h6 span{
 .card-front, .card-back {
   width: 100%;
   height: 105%;
-  background-color: #2a2b38;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+  background-color: #653fad;
+  background-image: url('https://i.pinimg.com/736x/cf/2d/26/cf2d260d0a112de6a4cf67f676f61b3c.jpg');
+  background-size: cover;
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 300%;
@@ -204,19 +213,19 @@ h6 span{
   line-height: 22px;
   letter-spacing: 0.5px;
   outline: none;
-  color: #c4c3ca;
-  background-color: #2d2f42;
+  color: #ffffff;
+  background-color: #fc0eac54;
   border: none;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
-  box-shadow: 0 4px 8px 0 rgba(168, 160, 160, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(201, 40, 147, 0.37);
 
 }
 .form-style:focus,
 .form-style:active {
   border: none;
   outline: none;
-  box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+  box-shadow: 0 4px 8px 0 rgba(204, 43, 137, 0.356);
 }
 .input-icon {
   position: absolute;
@@ -226,7 +235,7 @@ h6 span{
   font-size: 24px;
   line-height: 48px;
   text-align: left;
-  color: #ffeba7;
+  color: #c59a0e;
   -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
 }
@@ -300,21 +309,21 @@ h6 span{
   -ms-flex-pack: center;
   text-align: center;
   border: none;
-  background-color: #ffeba7;
-  color: #102770;
-  box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
+  background-color: #ee047165;
+  color: #ffffff;
+  box-shadow: 0 8px 24px 0 rgba(255, 234, 167, 0.925);
   margin-top: 25px;
 }
 .btn:active,
 .btn:focus{  
-  background-color: #102770;
+  background-color: #6c26ad;
   color: #ffeba7;
-  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  box-shadow: 0 8px 24px 0 rgba(122, 6, 216, 0.2);
 }
 .btn:hover{  
-  background-color: #102770;
-  color: #ffeba7;
-  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+  background-color: #a507cc;
+  color: #ffffff;
+  box-shadow: 0 8px 24px 0 rgba(243, 5, 104, 0.411);
 }
 
 
@@ -325,9 +334,11 @@ h6 span{
 	display: block;
 	z-index: 100;
 	transition: all 250ms linear;
+  border-radius: 100px;
 }
 .logo img {
-	height: 26px;
+	height: 60px;
 	width: auto;
 	display: block;
+  border-radius: 100px;
 }     
