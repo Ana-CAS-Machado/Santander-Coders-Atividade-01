@@ -8193,7 +8193,7 @@ footer {
  background: -webkit-linear-gradient(45deg, #2a1a5e 0%, #5126a7 100%);
  background: -o-linear-gradient(45deg, #2a1a5e 0%, #5126a7 100%);
  background: -ms-linear-gradient(45deg, #2a1a5e 0%, #5126a7 100%);
- background: linear-gradient(45deg, #2a1a5e 0%, #5126a7 100%);
+ background: linear-gradient(45deg,#bd2387b3 0%, #5817e5 100%);
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a1a5e', endColorstr='#5126a7', GradientType=1 ); }
  .footer-09 .border-top {
    border-color: rgba(255, 255, 255, 0.1) !important; }
