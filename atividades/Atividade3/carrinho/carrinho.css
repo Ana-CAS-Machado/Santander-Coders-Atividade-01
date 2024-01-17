@@ -1,0 +1,13 @@
+main{
+ background: -webkit-linear-gradient(145deg, #fdb89b60, #cf8bf362, #a770ef3f); 
+  background: linear-gradient(145deg, #fdb89b69, #cf8bf350, #a770ef44); 
+ text-align: center;
+ font-family: "Source Code Pro", monospace;
+ color: #000000;
+ margin: 20px 20px 20px 20px;
+ border-radius: 90px;
+ box-shadow: 3px 1px 3px #a770efcc;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
