@@ -233,6 +233,9 @@ p{
 
 .text-1{
  font-style: italic;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 main{
@@ -240,17 +243,22 @@ main{
   background: linear-gradient(145deg, #fdb89b69, #cf8bf350, #a770ef44); 
  text-align: center;
  font-family: "Source Code Pro", monospace;
- font-size: 1.5rem;
  box-sizing: border-box;
- margin: 20px 20px 20px 20px;
- padding: 0;
+ 
  color: #000000;
- display: flex;
- justify-content: center;
- align-items: center;
- height: 90vw;
- border-radius: 100px;
+ height: 35vw;
+ margin: 20px 20px 20px 20px;
+ border-radius: 90px;
  box-shadow: 3px 1px 3px #a770efcc;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
 i{
