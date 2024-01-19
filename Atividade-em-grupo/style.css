@@ -1,0 +1,241 @@
+*{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    color: #CD313E;
+    
+}
+
+
+.list{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;    
+}
+
+.logo{
+    position: relative;
+    top: 14px;
+}
+
+li{
+    text-decoration: none;
+    margin: 20px 60px 20px 60px;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold; 
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 189.131px;
+    height: 36px;
+    flex-shrink: 0;
+    background-color: #CD313E;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.buy-btn{
+    box-shadow: 3px 5px 9px 1px #a76161;
+    border: 0;
+    border-radius: 2px;
+    background: #ff1a16;
+    position: relative;
+    top: 14px;
+
+}
+
+.background {
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    fill: #F78282;
+    opacity: 0.6;
+}
+
+main{
+    padding-top: 68px;
+}
+
+.content {
+    padding-top: 240px;
+    margin-bottom: 100px;
+}
+
+
+.content div {
+    width: 540px;
+}
+
+.content div section {
+    color: #D44D51;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15.625rem;
+    width: 40px;
+    margin-top: 0px;
+    padding-bottom: 12.5rem;
+}
+
+.texto h1{
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 66px; 
+    letter-spacing: 1px;
+}
+
+.descrição, p{
+    font-size: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.botão{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.butt1{
+    font-family: Roboto;
+    width: 189px;
+    height: 36px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    font-size: 16px;
+    background: #CD313E;
+    border: 0;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.butt2{
+background-color: #ffffff00;
+color: black;
+border: 3px solid;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+
+}
+
+.btn3{
+    border: 0;
+    border-radius: 2px;
+    background: #D04A3B;
+    font-size: 16px;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F78282; 
+    padding-top: 68px;
+    color: white;
+    justify-content: space-between;
+    width: 100%;
+    font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 40px;
+    align-items: center;
+    
+}
+
+hr{
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 500px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.footer-ul{
+    display: flex;
+    gap: 60px;
+    
+}
+
+.footer-ul, li{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 62px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 30px;
+    right: 60px;
+}
