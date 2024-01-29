@@ -1,0 +1,25 @@
+.nav-link, .navbar-brand{
+ color: aliceblue;
+}
+
+.navbar{
+ background-image: url(https://img.freepik.com/fotos-premium/o-plano-de-fundo-texturizado-velho-muro-de-concreto-verde-com-riscos-de-tinta_154092-8070.jpg);
+ background-color: rgb(7, 226, 37);
+}
+
+#Carrossel-ini{
+ width: 1200px;
+ height: 400px
+}
+
+#ham-taff{
+ width: 600px;
+ height: 400px;
+}
+.mapa{
+ margin: 30px 30px 30px 30px;
+}
+
+footer{
+ background-image: url(https://img.freepik.com/fotos-premium/o-plano-de-fundo-texturizado-velho-muro-de-concreto-verde-com-riscos-de-tinta_154092-8070.jpg);
+}
